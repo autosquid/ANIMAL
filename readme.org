@@ -4,8 +4,8 @@
 
 * build & install
 
-```
-mkdir build
-cmake ..
-make & make install
-```
+=mkdir build=
+
+=cmake ..=
+
+=make & make install=
