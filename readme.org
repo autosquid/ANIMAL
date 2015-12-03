@@ -1,0 +1,11 @@
+* ANIMAL -- ANother lInear MAth Library
+
+-------------
+
+* build & install
+
+```
+mkdir build
+cmake ..
+make & make install
+```
