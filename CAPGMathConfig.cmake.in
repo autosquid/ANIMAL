@@ -1,0 +1,16 @@
+# - Config file for the FooBar package
+# It defines the following variables
+#  CAPGMath_INCLUDE_DIRS - include directories for FooBar
+#  CAPGMath_LIBRARIES    - libraries to link against
+#  CAPGMath_EXECUTABLE   - the bar executable
+
+# Compute paths
+get_filename_component(CAPGMath_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+set(CAPGMath_INCLUDE_DIRS "@CONF_INCLUDE_DIRS@")
+
+# Our library dependencies (contains definitions for IMPORTED targets)
+if(NOT TARGET CPAGMath AND NOT CAPGMath_BINARY_DIR)
+  include("${CAPGMath_CMAKE_DIR}/CAPGMathTargets.cmake")
+endif()
+
+set(CAPGMath_LIBRARIES CAPGMath)
