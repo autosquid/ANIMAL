@@ -125,7 +125,7 @@ namespace CAPG{
 		Matrix3 transpose() const;
 		bool inverse(Matrix3& vmInverse, Real vfTolerance = Math::EPSILON_E6) const;
 		Matrix3 inverse(Real vfTolerance = Math::EPSILON_E6) const;
-		/// ÖÈ
+		/// ï¿½ï¿½
 		Real determinant() const;
 
 		// singular value decomposition

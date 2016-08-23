@@ -71,7 +71,7 @@ namespace CAPG{
 
 		Real valueDegrees() const; // see bottom of this file
 		Real valueRadians() const { return m_Rad; }
-		Real valueAngleUnits() const;
+		//Real valueAngleUnits() const;
 
 		const Radian& operator + () const { return *this; }
 		Radian operator + ( const Radian& r ) const { return Radian ( m_Rad + r.m_Rad ); }
@@ -117,7 +117,7 @@ namespace CAPG{
 
 		Real valueDegrees() const { return m_Deg; }
 		Real valueRadians() const; // see bottom of this file
-		Real valueAngleUnits() const;
+		//Real valueAngleUnits() const;
 
 		const Degree& operator + () const { return *this; }
 		Degree operator + ( const Degree& d ) const { return Degree ( m_Deg + d.m_Deg ); }

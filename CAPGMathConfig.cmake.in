@@ -14,3 +14,6 @@ if(NOT TARGET CPAGMath AND NOT CAPGMath_BINARY_DIR)
 endif()
 
 set(CAPGMath_LIBRARIES CAPGMath)
+
+set(CAPGMath_FOUND 1)
+

@@ -27,7 +27,8 @@ namespace CAPG{
 	*/
 	class _CAPGExport PlaneBoundedVolume{
 	// type defines
-	protected:
+	//protected:
+    public:
 		typedef std::vector<Plane> PlaneList;
 
 	// member variables
