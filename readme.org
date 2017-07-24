@@ -1,5 +1,4 @@
 * ANIMAL -- ANother lInear MAth Library
-
 -------------
 
 * build & install
